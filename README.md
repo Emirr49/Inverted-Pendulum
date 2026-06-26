@@ -1,0 +1,2 @@
+# Inverted Pendulum
+This repository contains the dynamic modeling of a classic cart-pole system (inverted pendulum), built from scratch using first-principles physics. The system is modeled as an inverted pendulum using equations of motion derived with Euler Lagrange equations, capturing the non-linear coupling between the linear cart displacement and the angular position of the pendulum. This high-fidelity mathematical model serves as the foundational plant configuration, designed to be utilized for future control system development.
