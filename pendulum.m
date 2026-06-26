@@ -19,7 +19,7 @@ J  = (1/3)*m*l^2;   % Pendulum moment of inertia (rod about pivot)
 %% Initial Conditions
 x0        = 0;          % Cart position (m)
 xdot0     = 0;          % Cart velocity (m/s)
-theta0    = deg2rad(5); % Initial angle (rad) (small disturbance)
+theta0    = pi; % Initial angle (rad) % for (small disturbance) use "deg2rad(5)"
 thetadot0 = 0;          % Angular velocity (rad/s)
 
 %% Simulation Settings
